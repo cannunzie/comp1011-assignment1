@@ -18,7 +18,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDate;
-import java.time.Period;
 
 /**
  *
@@ -76,10 +75,10 @@ public class Contact {
      * @param phoneNumber 
      */
     public void setPhone(String phoneNumber) {
-        if (phoneNumber.matches("(2-9)\\d{2}[-.]?d{3}[.-]\\d{4}"))
+        //if (phoneNumber.matches("(2-9)\\d{2}[-.]?d{3}[.-]\\d{4}"))
             this.phoneNumber = phoneNumber;
-        else
-            throw new IllegalArgumentException("Phone numbers must be in the format NXX-XXX-XXXX");
+        //else
+         //   throw new IllegalArgumentException("Phone numbers must be in the format NXX-XXX-XXXX");
     }
     
     public LocalDate getBirthday() {
