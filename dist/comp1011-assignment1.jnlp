@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="comp1011-assignment1.jnlp">
+  <information>
+    <title>comp1011-assignment1</title>
+    <vendor>Caleb</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="comp1011-assignment1.jar" size="3138" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="comp1011-assignment1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="comp1011.assignment1.Comp1011Assignment1"  name="comp1011-assignment1" />
+  <update check="always"/>
+</jnlp>
